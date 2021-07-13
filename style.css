@@ -1,0 +1,120 @@
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color:#FFFFFF;
+    width:870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+.section-title{
+    color: #562EFF;
+    margin-top: 3px;
+}
+/* top players style */
+.players{
+    display:grid;
+    grid-row-gap: 29px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player img{
+    width:56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16.3px;
+    font-size: 18px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+hr{
+    border:1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom:27px;
+}
+
+/* top-blog styles */
+
+.top-blogs{
+    display:grid;
+}
+.blogs{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+    align-items: flex-start;
+}
+.blog .thumbnail img{
+    height: 117px;
+    width: 177px;
+    border-radius: 0px;
+}
+.blogs .blog .blog-info{
+    margin-left: 16px;
+}
+
+.blog-title{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.blog-author{
+    color:#9F9F9F;
+    font-size:16px;
+    margin:0px;
+}
+.blog-author a{
+    color:#9F9F9F;
+    font-size:16px;
+    text-decoration: none;
+}
+
+/* course style */
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    padding-right:30px ;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 2px solid rgb(231, 228, 228);
+    border-radius: 15px;
+}
+.course-info{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.ratings .gold{
+    color: #FFC014;
+
+}
+.ratings .silver{
+    color:#A2A2A2;
+}
+.fa-clock{
+    color: #FF4A60;
+}
